@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OktaWithWink'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of OktaWithWink.'
+  s.version          = '1.0.0'
+  s.summary          = 'An iOS SDK for integrating Okta authentication into Swift applications with Okta OIDC support.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'An iOS SDK for integrating Okta authentication into Swift applications with Okta OIDC support and biometric support'
 
   s.homepage         = 'https://github.com/swatiappzlogic/CustomOkta.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -39,7 +37,6 @@ TODO: Add long description of the pod here.
     s.dependency 'DatePicker', '~> 1.3.0'
     s.dependency "FlagPhoneNumber"
     s.dependency 'PhoneNumberKit', '~> 3.7'
-    s.dependency 'OktaOidc', '~> 3.10.1'
   
   s.static_framework = true
   

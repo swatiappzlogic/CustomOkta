@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import OktaOidc
+//import OktaOidc
 
 class WinkSDKBundleManager {
     

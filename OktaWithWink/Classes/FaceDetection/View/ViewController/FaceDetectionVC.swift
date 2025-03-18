@@ -13,7 +13,7 @@ import MobileCoreServices
 import Alamofire
 import CoreMedia
 import CoreImage
-import OktaOidc
+//import OktaOidc
 
 
 class FaceDetectionVC: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {

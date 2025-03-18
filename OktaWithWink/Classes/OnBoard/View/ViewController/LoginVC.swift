@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import OktaOidc
+//import OktaOidc
 import Alamofire
 
 protocol FaceVCDelegate: AnyObject {

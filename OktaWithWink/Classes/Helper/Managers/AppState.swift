@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import OktaOidc
 
 class AppState {
     static let shared = AppState()
